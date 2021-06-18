@@ -1,0 +1,16 @@
+body {
+    color: #999;
+}
+h1{
+    color: red;
+}
+
+.cage {
+    background-color: aquamarine;
+    width: 140px;
+    height: 140px;
+    border: 2px solid #f83a3a;
+    border-radius: 30px;
+    margin: 2px;
+    padding: 2px;
+}
