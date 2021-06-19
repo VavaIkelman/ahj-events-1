@@ -5,14 +5,14 @@ jest.useFakeTimers();
 test('init', () => {
   const html = document.createElement('div');
   html.innerHTML = `<section class="goblin">
-    <div class="results">SCORE: <span class="score">0</span> MISS: <span class="miss">0</span> of 5</div>
+    <div class="result">score: <span class="score">0</span> miss: <span class="miss">0</span> of 5</div>
     <div class="row">
-      <div class="col">
+      <div class="cage">
         <img src="img/goblin.png" class="head">
       </div>
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
+      <div class="cage"></div>
+      <div class="cage"></div>
+      <div class="cage"></div>
     </div>
   </div>`;
   const goblin = new Goblin(html.querySelector('.goblin'));
@@ -25,14 +25,14 @@ test('init', () => {
 test('rotate', () => {
   const html = document.createElement('div');
   html.innerHTML = `<section class="goblin">
-    <div class="results">SCORE: <span class="score">0</span> MISS: <span class="miss">0</span> of 5</div>
+    <div class="results">score: <span class="score">0</span> miss: <span class="miss">0</span> of 5</div>
     <div class="row">
-      <div class="col">
+      <div class="cage">
         <img src="img/goblin.png" class="head">
       </div>
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
+      <div class="cage"></div>
+      <div class="cage"></div>
+      <div class="cage"></div>
     </div>
   </div>`;
   const goblin = new Goblin(html.querySelector('.goblin'));
