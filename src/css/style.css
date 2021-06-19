@@ -1,16 +1,41 @@
 body {
     color: #999;
 }
-h1{
+
+h1 {
     color: red;
 }
 
+.goblin {
+    width: 520px;
+}
+
+.result {
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span {
+    font-weight: bold;
+    color: red;
+}
+
+.score {
+    margin-right: 20px;
+}
+
+.row {
+    display: flex;
+}
+
 .cage {
-    background-color: aquamarine;
-    width: 140px;
-    height: 140px;
-    border: 2px solid #f83a3a;
-    border-radius: 30px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(28, 219, 253);
+    border: 1px solid red;
+    border-radius: 20px;
     margin: 2px;
     padding: 2px;
 }
