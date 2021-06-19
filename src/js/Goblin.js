@@ -26,7 +26,7 @@ export default class Goblin {
         this.game.missed();
         if (this.game.miss === 5) {
           clearInterval(gameInterval);
-          alert('Вы проиграли :-(((');
+          alert('You lose!');
         }
       }
 

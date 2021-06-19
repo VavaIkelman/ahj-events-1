@@ -5,7 +5,7 @@ jest.useFakeTimers();
 test('init', () => {
   const html = document.createElement('div');
   html.innerHTML = `<section class="goblin">
-    <div class="result">score: <span class="score">0</span> miss: <span class="miss">0</span> of 5</div>
+    <div class="results">score: <span class="score">0</span> miss: <span class="miss">0</span> of 5</div>
     <div class="row">
       <div class="cage">
         <img src="img/goblin.png" class="head">

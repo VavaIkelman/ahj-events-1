@@ -1,8 +1,8 @@
 export default class Score {
   constructor(gameElement) {
     this.gameElement = gameElement;
-    this.scoreElement = gameElement.querySelector('.result .score');
-    this.missElement = gameElement.querySelector('.result .miss');
+    this.scoreElement = gameElement.querySelector('.results .score');
+    this.missElement = gameElement.querySelector('.results .miss');
   }
 
   init() {
