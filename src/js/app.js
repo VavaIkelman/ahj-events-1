@@ -1,4 +1,8 @@
-import Goblin from './Goblin';
+/* eslint-disable linebreak-style */
+import GoblinClick from './GoblinClick';
 
-const goblin = new Goblin(document.querySelector('.goblin'));
-goblin.init();
+document.addEventListener('DOMContentLoaded', () => {
+  const goblinPlay = new GoblinClick();
+  goblinPlay.createField();
+  goblinPlay.punchGoblin.bind(goblinPlay)();
+});

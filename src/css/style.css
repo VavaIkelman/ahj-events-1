@@ -1,41 +1,71 @@
-body {
-    color: #999;
+* {
+  cursor: none;
 }
 
-h1 {
-    color: red;
+body {
+  color: #bcbbb6;
+}
+p{
+  font-size: 24px;
+  color: black;
+}
+
+span{
+color: red;
+font-size: 32px;
+}
+
+h1{
+  text-align: center;
+  color: red;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
+.score{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.field {
+  display: flex;
+  width: 100%;
+}
+
+.cell {
+  width: 115px;
+  height: 115px;
+  background-color: #4fb9eb;
+  background-repeat: no-repeat;
+  border-radius: 11px;
+  margin: 3px;
+  border: 2px solid #e23cb0;
 }
 
 .goblin {
-    width: 520px;
+  width: 112px;
+  height: 112px;
+  background-image: url('../img/goblin.png');
+  background-repeat: no-repeat;
 }
 
-.results {
-    font-size: 22px;
-    color: #000000;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-span {
-    font-weight: bold;
-    color: red;
-}
-
-.score {
-    margin-right: 20px;
-}
-
-.row {
-    display: flex;
-}
-
-.cage {
-    width: 120px;
-    height: 120px;
-    background-color: rgb(28, 219, 253);
-    border: 1px solid red;
-    border-radius: 20px;
-    margin: 2px;
-    padding: 2px;
+.cursor {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background-image: url('../img/hammer.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
 }
